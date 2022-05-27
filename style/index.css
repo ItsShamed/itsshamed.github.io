@@ -27,6 +27,10 @@ p {
     filter: invert(0.5) sepia(100%) hue-rotate(-50deg) saturate(1000%) brightness(100%);
 }
 
+#soundcloud:hover {
+    filter: invert(0.5) sepia(100%) hue-rotate(0deg) saturate(1000%) brightness(100%);
+}
+
 #github:hover {
     filter: brightness(75%);
 }
