@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap');
+
+:root {
+    background-color: black;
+    font-family: 'Fira Code', monospace;
+}
+
+p {
+    color: white;
+    font-weight: normal;
+    font-size: 1.5em;
+}
+
+#discord:hover {
+    filter: invert(0.5) sepia(100%) hue-rotate(200deg) saturate(400%) brightness(100%);
+}
+
+#twitter:hover {
+    filter: invert(0.5) sepia(100%) hue-rotate(150deg) saturate(400%) brightness(100%);
+}
+
+#twitch:hover {
+    filter: invert(0.5) sepia(100%) hue-rotate(220deg) saturate(600%) brightness(80%);
+}
+
+#yt:hover {
+    filter: invert(0.5) sepia(100%) hue-rotate(-50deg) saturate(1000%) brightness(100%);
+}
+
+#github:hover {
+    filter: brightness(75%);
+}
+
+h1 {
+    color: white;
+    font-weight: bolder;
+    font-size: 3em;
+}
+
+.minimal-text {
+    color: white;
+    text-decoration: none;
+    font-weight: lighter;
+    font-size: 1em;
+}
+
+.minimal-text:hover {
+    text-decoration: underline;
+}
+
+.minimal-text:visited {
+    text-decoration: none;
+}
+
+body{
+    align-content: center;
+    /*display: flex;*/
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    /*height: 100vh;*/
+    margin: 0;
+}
+main {
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+}
+
+ul li a img {
+    height: 48px;
+}
+
+ul li {
+    flex: 0 1 80px;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
