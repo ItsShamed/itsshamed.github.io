@@ -11,6 +11,10 @@ p {
     font-size: 1.5em;
 }
 
+a.mstdnref {
+    filter: opacity(0);
+}
+
 #discord:hover {
     filter: invert(0.5) sepia(100%) hue-rotate(200deg) saturate(400%) brightness(100%);
 }
